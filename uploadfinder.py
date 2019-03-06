@@ -39,13 +39,6 @@ if is_connected(REMOTE_SERVER):
             r1 = conn.getresponse()
             if r1.status == 200:
                 print("\033[1;32;1m")
-            """if r1.status == 404:
-                #print("\033[1;33;0m")
-            elif r1.status == 200:
-                print("\033[1;32;0m")
-            else:
-                #print("\033[2;37;0m")"""
-
 
         except Exception as e:
                 print "Error:"+str(e)
